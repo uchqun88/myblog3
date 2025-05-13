@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #075e54;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icons {
+  font-size: 20px;
+}
+
+.chat-list {
+  padding-bottom: 70px;
+}
+
+.chat-item {
+  border-bottom: 1px solid #eee;
+  padding: 20px 18px;
+  position: relative;
+}
+
+.chat-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chat-message {
+  color: #555;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.chat-date {
+  position: absolute;
+  right: 18px;
+  top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.nav-item {
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  color: #25D366;
+  font-weight: bold;
+}
